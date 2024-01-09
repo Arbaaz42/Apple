@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue"; */
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+:root{
+--text-color : rgba(255,255,255,.8);
+--bg-color :  rgba(0,0,0,.8);
+--text-heading: #0071E3;
+--text-heading11 :#1d1d1f;
+
+}
+#nav{
+    border: 2px solid;
+    height: 50px;
+    background-color: var(--text-heading11);
+}
+
+#sub-nav{
+    /* border: 2px solid  red; */
+    height: inherit;
+    margin: auto;
+    width: 65%;
+}
+#sub-nav ol{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-color);
+    fill: var(--text-color);
+}
+#main{
+    border: 2px solid;
+    height: 620px;
+    background-image: url("./Images/hero_iphone15pro__i70z9oz3hj2i_large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#main h2{
+    color: var(--text-color);
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    
+}
+#main h2+h3{
+    color: var(--text-color);
+    font-size: 28px;
+    /* line-height: 1.10722; */
+    font-weight: 400;
+    letter-spacing: .004em;
+}
+#aside1{
+    position: absolute;
+    left: 500px;
+    top: 180px;
+    /* border: 2px solid red; */
+    height: 200px;
+}
+#link1,#link2{
+    color: #2997ff;
+   
+}
+#link1,#link2{
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+}
+#link1:hover{
+text-decoration: underline;
+}
+#link2:hover{
+    text-decoration: underline;
+    }
+
+#link1{
+    position: absolute;
+    top: 110px;
+    left: 80px;
+}
+#link2{
+    position: absolute;
+    top: 110px;
+    left: 240px;
+}
+#sub-main{
+    /* border: 2px solid; */
+    height: 620px;
+    background-image: url("./Images/hero_iphone15_announce__uuemlcwczn6u_large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#aside2{
+    position: absolute;
+    /* left:px; */
+    top: 780px;
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+#aside2 h2{
+    font-size: 79px;
+    line-height: 1.07143;
+    font-weight: 600;
+}
+#h3-1{
+    font-size: 29px;
+    
+    font-weight: 400;
+}
+#link31,#link32{
+    color: #2997ff;
+   
+}
+#link31,#link32{
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+}
+#link31:hover{
+text-decoration: underline;
+}
+#link32:hover{
+    text-decoration: underline;
+    }
+
+#link31{
+    position: absolute;
+    top: 140px;
+    left: 580px;
+}
+#link32{
+    position: absolute;
+    top: 140px;
+    left: 740px;
+}
+#video{
+    /* border: 2px solid greenyellow; */
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+}
+#picture{
+    /* border: 2px solid #1d1d1f; */
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#picture img{
+    width: 49%;
+    height: 590px;
+}
+
+#aside21{
+    position: absolute;
+   left: 247px;
+    top: 1980px;
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 20%;
+    text-align: center;
+    
+    
+}
+
+#aside21 h2{
+    font-size: 29px;
+    line-height: 1.07143;
+    font-weight: 600;
+}
+#h3-1{
+    font-size: 19px;
+    
+    font-weight: 400;
+}
+#link41,#link42{
+    color: #2997ff;
+   
+}
+#link41,#link42{
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+}
+#link41:hover{
+text-decoration: underline;
+}
+#link42:hover{
+    text-decoration: underline;
+    }
+
+#link41{
+    position: absolute;
+    top: 90px;
+    left: 20px;
+}
+#link42{
+    position: absolute;
+    top: 90px;
+    left: 170px;
+}
+#aside31{
+    position: absolute;
+   left: 1047px;
+    top: 1980px;
+    /* border: 2px solid red;    */
+    height: 300px;
+    width: 20%;
+    text-align: center;
+    
+    
+}
+
+#aside21 h2{
+    font-size: 29px;
+    line-height: 1.07143;
+    font-weight: 600;
+}
+#h3-1{
+    font-size: 19px;
+    
+    font-weight: 400;
+}
+#link51,#link52{
+    color: #2997ff;
+   
+}
+#link51,#link52{
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+}
+#link51:hover{
+text-decoration: underline;
+}
+#link52:hover{
+    text-decoration: underline;
+    }
+
+#link51{
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+#link52{
+    position: absolute;
+    top: 70px;
+    left: 170px;
+}
